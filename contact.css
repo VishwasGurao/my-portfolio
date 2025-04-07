@@ -1,0 +1,126 @@
+/* ==================== General Styles ===================== */
+body {
+  background-image: url('morning 1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background: transparent;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+nav ul.left-nav li a:hover {
+  color: black;
+  background: white;
+  transform: scale(1.1);
+}
+
+/* ==================== Contact Section ===================== */
+#contact {
+  min-height: 100vh;
+  padding: 100px 20px;
+  text-align: center;
+  background: url('your-image-path.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+/* Contact Form Container */
+.contact-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  text-align: left; /* Align text left for form elements */
+}
+
+/* Form Title */
+.contact-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: black;
+}
+
+/* Form Description */
+.contact-container p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: black;
+}
+
+/* Styling Form Labels */
+.contact-container label {
+  font-size: 1rem;
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+/* Form Fields */
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: transparent;
+}
+
+/* Placeholder Styles */
+.contact-container input::placeholder,
+.contact-container textarea::placeholder {
+  color: #aaa;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* Button Styling */
+.contact-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00b894;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-container button:hover {
+  background-color: #019875;
+}

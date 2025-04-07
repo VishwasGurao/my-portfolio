@@ -1,0 +1,88 @@
+/* Dark Mode Styles */
+body.dark-theme {
+    background-image: url('night.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Dark Mode Header */
+.dark-theme header {
+    background: transparent;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar Links */
+.dark-theme nav ul li a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dark-theme nav ul li a:hover {
+    color: black;
+    background: white;
+}
+
+/* Hero Section Dark */
+.dark-theme #home {
+    background: transparent;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dark-theme .hero-container {
+    background-color: transparent;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .hero-text h1 span {
+    color: #00aaff;
+}
+
+.dark-theme .homep {
+    color: #ccc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Button in Dark Mode */
+.dark-theme .btn {
+    background-color: #00aaff;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dark-theme .btn:hover {
+    background-color: #0088cc;
+}
+
+/* Toggle Button */
+.dark-theme #darkModeToggle {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dark-theme #darkModeToggle:hover {
+    color: black;
+    background: white;
+    transform: scale(1.5);
+}
+
+/* Hero Image */
+.dark-theme .hero-image img {
+    border: 2px solid white;
+}
+
+/* hero section and all wark is completed 
+now just other sections  */
