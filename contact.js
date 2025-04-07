@@ -9,7 +9,7 @@ function sendEmail() {
       return;
   }
 
-  var mailtoLink = "https://mail.google.com/mail/?view=cm&fs=1&to=guraovishwas@gmail.com&su=New Inquiry from " + encodeURIComponent(name) + "&body=Name: " + encodeURIComponent(name) + "%0AEmail: " + encodeURIComponent(email) + "%0AMessage: " + encodeURIComponent(message);
+  var mailtoLink = "https://mail.google.com/mail/?view=cm&fs=1&to=allsetpc@gmail.com&su=New Inquiry from " + encodeURIComponent(name) + "&body=Name: " + encodeURIComponent(name) + "%0AEmail: " + encodeURIComponent(email) + "%0AMessage: " + encodeURIComponent(message);
 
   window.open(mailtoLink, "_blank");
 }
